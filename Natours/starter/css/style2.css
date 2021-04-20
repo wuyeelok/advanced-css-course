@@ -1,0 +1,19 @@
+nav#nav div.pull-right .button {
+  background-color: green;
+}
+
+a#my-btn {
+  background-color: orange;
+}
+
+.button {
+  background-color: blue;
+}
+
+a {
+  background-color: purple;
+}
+
+#nav a.button:hover {
+  background-color: yellow;
+}
