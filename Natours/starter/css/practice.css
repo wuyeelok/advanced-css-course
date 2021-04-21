@@ -23,3 +23,15 @@ a {
 #nav a.button:hover {
   background-color: yellow;
 }
+
+.abc {
+  color: yellowgreen;
+}
+
+#h2 {
+  color: burlywood;
+}
+
+h2 {
+  color: blue;
+}
