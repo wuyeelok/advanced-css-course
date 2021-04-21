@@ -141,6 +141,7 @@ body {
   border-radius: 10rem;
   transition: all 0.2;
   position: relative;
+  font-size: 1.6rem;
 }
 
 .btn:hover {
