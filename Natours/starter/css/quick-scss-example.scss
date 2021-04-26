@@ -2,3 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
+$color-primary: #f9ed69; // Yellow
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+}
