@@ -11,10 +11,17 @@ $color-text-dark: #333;
 nav {
   margin: 30px;
   background-color: $color-primary;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
 .navigation {
   list-style: none;
+  float: left;
 
   li {
     display: inline-block;
@@ -30,4 +37,8 @@ nav {
       color: $color-text-dark;
     }
   }
+}
+
+.button {
+  float: right;
 }
