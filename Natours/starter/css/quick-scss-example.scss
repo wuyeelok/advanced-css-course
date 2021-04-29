@@ -11,15 +11,19 @@ $color-text-light: #eee;
 
 $width-button: 150px;
 
-nav {
-  margin: 30px;
-  background-color: $color-primary;
-
+@mixin clearfix {
   &::after {
     content: "";
     clear: both;
     display: table;
   }
+}
+
+nav {
+  margin: 30px;
+  background-color: $color-primary;
+
+  @include clearfix;
 }
 
 .navigation {
