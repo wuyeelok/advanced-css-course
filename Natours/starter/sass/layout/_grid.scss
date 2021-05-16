@@ -26,7 +26,25 @@
     width: calc((100% - #{$gutter-horizontal} * 2) / 3);
   }
 
+  .col-2-of-3 {
+    width: calc(
+      (100% - #{$gutter-horizontal} * 2) / 3 * 2 + #{$gutter-horizontal}
+    );
+  }
+
   .col-1-of-4 {
     width: calc((100% - #{$gutter-horizontal} * 3) / 4);
+  }
+
+  .col-2-of-4 {
+    width: calc(
+      (100% - #{$gutter-horizontal} * 3) / 4 * 2 + #{$gutter-horizontal}
+    );
+  }
+
+  .col-3-of-4 {
+    width: calc(
+      (100% - #{$gutter-horizontal} * 3) / 4 * 3 + #{$gutter-horizontal} * 2
+    );
   }
 }
