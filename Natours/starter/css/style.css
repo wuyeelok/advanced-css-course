@@ -1,112 +1,122 @@
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-10rem); }
+    transform: translateX(-10rem);
+  }
   80% {
-    transform: translateX(1rem); }
+    transform: translateX(1rem);
+  }
   100% {
     opacity: 1;
-    transform: translateX(0); } }
-
+    transform: translateX(0);
+  }
+}
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(10rem); }
+    transform: translateX(10rem);
+  }
   80% {
-    transform: translateX(-1rem); }
+    transform: translateX(-1rem);
+  }
   100% {
     opacity: 1;
-    transform: translateX(0); } }
-
+    transform: translateX(0);
+  }
+}
 @keyframes moveInBottom {
   0% {
     transform: translateY(10rem);
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
     transform: translateY(0);
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 /* Reset CSS */
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-HairlineItalic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato Hairline";
   src: url("../font/lato/Lato-Hairline.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato Hairline";
   src: url("../font/lato/Lato-HairlineItalic.woff2") format("woff2");
   font-weight: 300;
   font-style: italic;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-LightItalic.woff2") format("woff2");
   font-weight: 300;
   font-style: italic;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-BoldItalic.woff2") format("woff2");
   font-weight: bold;
   font-style: italic;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 /* Overall font property */
 body {
   font-family: "Lato", sans-serif;
@@ -114,27 +124,31 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
-  .heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; }
-  .heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-out; }
+  margin-bottom: 6rem;
+}
+.heading-primary--main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.heading-primary--sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.75rem;
+  animation: moveInRight 1s ease-out;
+}
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -144,7 +158,8 @@ body {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent; }
+  color: transparent;
+}
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -154,25 +169,27 @@ body {
   border-radius: 10rem;
   transition: all 0.2;
   position: relative;
-  font-size: 1.6rem; }
-
+  font-size: 1.6rem;
+}
 .btn:hover {
   transform: translateY(-0.3rem);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-  .btn:hover:after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0; }
-
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.btn:hover:after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
 .btn:active {
   transform: translateY(-0.1rem);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
 .btn--white {
   background-color: #fff;
-  color: #777; }
-  .btn--white::after {
-    background-color: #fff; }
-
+  color: #777;
+}
+.btn--white::after {
+  background-color: #fff;
+}
 .btn::after {
   content: "";
   display: inline-block;
@@ -183,39 +200,51 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all 0.4s; }
-
+  transition: all 0.4s;
+}
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards; }
+  animation-fill-mode: backwards;
+}
 
 .row {
   max-width: 114rem;
   background-color: #eee;
-  margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    background-color: orangered;
-    float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 6rem; }
-  .row .col-1-of-2 {
-    width: calc((100% - 6rem) / 2); }
-  .row .col-1-of-3 {
-    width: calc((100% - 6rem * 2) / 3); }
-  .row .col-2-of-3 {
-    width: calc( (100% - 6rem * 2) / 3 * 2 + 6rem); }
-  .row .col-1-of-4 {
-    width: calc((100% - 6rem * 3) / 4); }
-  .row .col-2-of-4 {
-    width: calc( (100% - 6rem * 3) / 4 * 2 + 6rem); }
-  .row .col-3-of-4 {
-    width: calc( (100% - 6rem * 3) / 4 * 3 + 6rem * 2); }
+  margin: 0 auto;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row [class^=col-] {
+  background-color: orangered;
+  float: left;
+}
+.row [class^=col-]:not(:last-child) {
+  margin-right: 6rem;
+}
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}
+.row .col-1-of-3 {
+  width: calc((100% - 6rem * 2) / 3);
+}
+.row .col-2-of-3 {
+  width: calc( (100% - 6rem * 2) / 3 * 2 + 6rem );
+}
+.row .col-1-of-4 {
+  width: calc((100% - 6rem * 3) / 4);
+}
+.row .col-2-of-4 {
+  width: calc( (100% - 6rem * 3) / 4 * 2 + 6rem );
+}
+.row .col-3-of-4 {
+  width: calc( (100% - 6rem * 3) / 4 * 3 + 6rem * 2 );
+}
 
 .header {
   height: 95vh;
@@ -223,21 +252,26 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 3.5rem; }
-  .header__text-box {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.header__logo {
+  height: 3.5rem;
+}
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 .section-about {
   background-color: #f7f7f7;
   padding: 25em 0;
-  margin-top: -20vh; }
+  margin-top: -20vh;
+}
