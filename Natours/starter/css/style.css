@@ -171,6 +171,10 @@ body {
   text-align: center;
 }
 
+.u-margin-bottom-8 {
+  margin-bottom: 8rem;
+}
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -231,7 +235,6 @@ body {
   clear: both;
 }
 .row [class^=col-] {
-  background-color: orangered;
   float: left;
 }
 .row [class^=col-]:not(:last-child) {
