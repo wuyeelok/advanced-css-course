@@ -271,6 +271,18 @@ body {
   border-radius: 2px;
   position: absolute;
 }
+.composition__photo--p1 {
+  left: 0;
+  top: -2rem;
+}
+.composition__photo--p2 {
+  right: 0;
+  top: 2rem;
+}
+.composition__photo--p3 {
+  left: 20%;
+  top: 10rem;
+}
 
 .row {
   max-width: 114rem;
