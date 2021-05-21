@@ -272,6 +272,7 @@ body {
   position: absolute;
   z-index: 10;
   transition: all 0.2s;
+  outline-offset: 2rem;
 }
 .composition__photo--p1 {
   left: 0;
@@ -289,6 +290,7 @@ body {
   transform: scale(1.05);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
+  outline: 1.5rem solid #55c57a;
 }
 
 .row {
