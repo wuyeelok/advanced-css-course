@@ -303,6 +303,7 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
 }
 .feature-box__icon {
   font-size: 6rem;
@@ -312,6 +313,9 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
 }
 
 .row {
