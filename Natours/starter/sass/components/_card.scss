@@ -19,7 +19,7 @@
     backface-visibility: hidden;
 
     &--front {
-      background-color: orangered;
+      background-color: $color-white;
     }
 
     &--back {

@@ -280,7 +280,7 @@ body {
   backface-visibility: hidden;
 }
 .card__side--front {
-  background-color: orangered;
+  background-color: #fff;
 }
 .card__side--back {
   background-color: green;
