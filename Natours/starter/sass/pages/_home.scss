@@ -43,3 +43,11 @@
     $color-primary-dark
   );
 }
+
+.book {
+  background-image: url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: $border-radius-small;
+
+  height: 50rem;
+}
