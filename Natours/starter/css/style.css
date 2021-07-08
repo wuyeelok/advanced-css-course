@@ -471,9 +471,10 @@ body {
 
 .form__input {
   font-size: 1.5rem;
+  font-family: inherit;
   padding: 1.5rem 2rem;
   border-radius: 2px;
-  background-color: rbga(#fff, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border: none;
 }
 
