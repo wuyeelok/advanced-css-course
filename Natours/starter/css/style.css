@@ -608,6 +608,12 @@ body {
   filter: blur(3px) brightness(80%);
 }
 
+.footer {
+  background-color: #777;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
