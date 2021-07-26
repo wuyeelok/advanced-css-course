@@ -15,6 +15,10 @@
     height: auto;
   }
 
+  &__navigation {
+    border-top: 1px solid $color-grey-light-2;
+  }
+
   &__list {
     list-style: none;
   }
