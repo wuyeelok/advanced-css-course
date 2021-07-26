@@ -623,6 +623,8 @@ body {
 }
 .footer__navigation {
   border-top: 1px solid #eee;
+  padding-top: 2rem;
+  display: inline-block;
 }
 .footer__list {
   list-style: none;
