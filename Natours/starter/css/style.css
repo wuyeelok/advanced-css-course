@@ -717,6 +717,16 @@ body {
   text-align: center;
 }
 
+.navigation__button {
+  background-color: #fff;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 2000;
+}
 .navigation__background {
   height: 6rem;
   width: 6rem;
