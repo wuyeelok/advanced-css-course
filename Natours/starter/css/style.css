@@ -748,6 +748,12 @@ body {
   right: 0;
   z-index: 1500;
 }
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .section-about {
   background-color: #f7f7f7;
