@@ -45,7 +45,7 @@
 
     opacity: 0;
     width: 0;
-    transition: all cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
   }
 
   &__list {
