@@ -12,11 +12,6 @@
   visibility: hidden;
   transition: all 0.3s;
 
-  &:target {
-    opacity: 1;
-    visibility: visible;
-  }
-
   &__content {
     @include center_x_y;
 
@@ -61,5 +56,30 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+  }
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__close {
+    line-height: 1;
+
+    &:link,
+    &:visited {
+      color: $color-grey-dark;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      font-size: 3rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
   }
 }
