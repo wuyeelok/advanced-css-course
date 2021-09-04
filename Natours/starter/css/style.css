@@ -47,6 +47,14 @@ html {
   font-size: 62.5%;
 }
 
+/*
+0 - 600px:        Phone
+600px - 900px:    Tablet portrait
+600px - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800 +:           Big desktop 
+
+*/
 @font-face {
   font-family: "Lato";
   src: url("../font/lato/Lato-HairlineItalic.woff2") format("woff2");
