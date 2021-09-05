@@ -36,10 +36,17 @@
 }
 /*
 0 - 600px:        Phone
-600px - 900px:    Tablet portrait
+600px - 900px:    Tablet portradzdzddvd       t
 600px - 1200px:   Tablet landscape
 [1200 - 1800] is where our normal styles apply
 1800 +:           Big desktop 
+*/
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
 */
 /* Reset CSS */
 *,
@@ -52,6 +59,21 @@
 
 html {
   font-size: 62.5%;
+}
+@media (min-width: 1800px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
 }
 @media (max-width: 600px) {
   html {
