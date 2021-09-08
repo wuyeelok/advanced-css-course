@@ -1,3 +1,9 @@
+# Kenneth Notes
+
+_Chrome_ browser development tool: resonsive dropdown --> 3 dot --> show media queries
+
+![screen cap](./readme_media/chrome_dev_tool_resp_media_query.png)
+
 # Course Material and FAQ for my Advanced CSS Course
 
 This repo contains starter files and the finished project files for all the projects contained in the course.
