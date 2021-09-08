@@ -47,6 +47,9 @@ $breakpoint argument choices:
 - tab-port
 - tab-land
 - big-desktop
+
+ORDER of partial working on responsive: Base + typography > general layout + grid > page layout > components
+
 */
 /* Reset CSS */
 *,
