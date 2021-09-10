@@ -32,4 +32,9 @@ html {
 body {
     box-sizing: border-box;
     padding: 3rem;
+
+    // Max width 900px
+    @include respond(tab-port) {
+        padding: 0;
+    }
 }
