@@ -26,6 +26,10 @@
     & > * {
         transform: skewY(-$section-features-skewY);
     }
+
+    @include respond(tab-port) {
+        padding: 15rem 0;
+    }
 }
 
 .section-tours {
