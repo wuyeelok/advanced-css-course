@@ -80,17 +80,18 @@
         background-image: linear-gradient(
                 105deg,
                 rgba($color-white, 0.9) 0%,
-                rgba($color-white, 0.9) 70%,
-                transparent 70%
+                rgba($color-white, 0.9) 65%,
+                transparent 65%
             ),
             url(../img/nat-10.jpg);
+        background-size: cover;
     }
     &__form {
         width: 50%;
         padding: 6rem;
 
         @include respond(tab-land) {
-            width: 70%;
+            width: 65%;
         }
     }
 }
