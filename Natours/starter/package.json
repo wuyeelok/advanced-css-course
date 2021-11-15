@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch sass/main.scss css/style.css --no-source-map",
+    "watch:sass": "sass --watch sass/main.scss css/style.css --no-source-map",
     "start_live-server": "live-server --port=17070"
   },
   "author": "Kenneth",
