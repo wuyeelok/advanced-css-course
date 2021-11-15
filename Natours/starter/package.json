@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --watch sass/main.scss css/style.css --no-source-map",
+    "compile:sass": "sass sass/main.scss css/style.comp.css --no-source-map",
     "start_live-server": "live-server --port=17070"
   },
   "author": "Kenneth",
