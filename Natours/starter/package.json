@@ -8,6 +8,7 @@
     "compile:sass": "sass sass/main.scss css/style.comp.css --no-source-map",
     "concat:css": "concat -o css/style.comcat.css css/icon-font.css css/style.comp.css",
     "prefix:css":"postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+    "compress:css":"sass css/style.prefix.css css/style.css --no-source-map  --style compressed",
     "start_live-server": "live-server --port=17070"
   },
   "author": "Kenneth",
