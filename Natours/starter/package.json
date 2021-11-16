@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --watch sass/main.scss css/style.css --no-source-map",
+    
     "compile:sass": "sass sass/main.scss css/style.comp.css --no-source-map",
+    "concat:css": "concat -o css/style.comcat.css css/icon-font.css css/style.comp.css",
     "start_live-server": "live-server --port=17070"
   },
   "author": "Kenneth",
   "license": "ISC",
   "devDependencies": {
+    "concat": "^1.0.3",
     "live-server": "^1.2.1",
     "sass": "^1.32.13"
-  },
-  "dependencies": {}
+  }
 }
