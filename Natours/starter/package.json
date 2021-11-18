@@ -4,7 +4,8 @@
   "description": "redo natours for learning css scss",
   "main": "index.js",
   "scripts": {
-    "dev-server": "live-server --port=18452"
+    "dev-server": "live-server --port=18452",
+    "compile_and_watch_sass": "sass --watch --no-source-map sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/wuyeelok/advanced-css-course#readme",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "sass": "^1.43.4"
   }
 }
