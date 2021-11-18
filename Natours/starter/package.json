@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev-server": "live-server --port=18452",
-    "compile_and_watch_sass": "sass --watch --no-source-map sass/main.scss css/style.css"
+    "compile_and_watch_sass": "sass --watch --no-source-map sass/main.scss css/style.css",
+    "start": "npm-run-all --parallel dev-server compile_and_watch_sass"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/wuyeelok/advanced-css-course#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
     "sass": "^1.43.4"
   }
 }
