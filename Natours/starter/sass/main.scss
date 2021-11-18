@@ -1,7 +1,3 @@
-@use "./abstracts" as abs; // Same as @use "./abstracts/index" as abs;
-
 @use "./vendors" as ven;
 
-h1 {
-    color: abs.$dark-green;
-}
+@use "./layout/" as lay;

@@ -1,0 +1,5 @@
+@use "../abstracts" as abs; // Same as @use "./abstracts/index" as abs;
+
+h1 {
+    color: abs.$dark-green;
+}
