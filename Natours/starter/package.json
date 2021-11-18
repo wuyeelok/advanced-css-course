@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "redo natours for learning css scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyeelok/advanced-css-course.git"
+  },
+  "author": "Kenneth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuyeelok/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/wuyeelok/advanced-css-course#readme"
+}
