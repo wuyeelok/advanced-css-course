@@ -1,7 +1,7 @@
-@use "./abstracts/variables";
+@use "./abstracts" as abs; // Same as @use "./abstracts/index" as abs;
 
-@use "./vendors/normalize";
+@use "./vendors" as ven;
 
 h1 {
-    color: variables.$dark-green;
+    color: abs.$dark-green;
 }
