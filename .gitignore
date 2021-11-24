@@ -3,3 +3,8 @@
 
 # Dependency directories
 node_modules/
+
+
+# Generated css during production build
+Natours/starter/css/style.compile.css
+Natours/starter/css/style.prefix.css

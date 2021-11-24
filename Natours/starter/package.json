@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev-server": "live-server --port=18452",
-    "compile_and_watch_sass": "sass --watch --no-source-map sass/main.scss css/style.css",
-    "start": "npm-run-all --parallel dev-server compile_and_watch_sass"
+    "compile-and-watch-sass": "sass --watch --no-source-map sass/main.scss css/style.css",
+    "start": "npm-run-all --parallel dev-server compile-and-watch-sass",
+    "compile-sass": "sass --no-source-map sass/main.scss css/style.compile.css",
+    "prefix-css": "postcss -u autoprefixer -b 'last 10 versions' --no-map css/style.compile.css -o css/style.prefix.css"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,10 @@
   },
   "homepage": "https://github.com/wuyeelok/advanced-css-course#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "live-server": "^1.2.1",
     "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.0.2",
     "sass": "^1.43.4"
   }
 }
