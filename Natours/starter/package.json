@@ -9,7 +9,8 @@
     "start": "npm-run-all --parallel dev-server compile-and-watch-sass",
     "compile-sass": "sass --no-source-map sass/main.scss css/style.compile.css",
     "prefix-css": "postcss -u autoprefixer -b 'last 4 versions' --no-map css/style.compile.css -o css/style.prefix.css",
-    "minify-css": "sass --no-source-map --style=compressed css/style.prefix.css css/style.css"
+    "minify-css": "sass --no-source-map --style=compressed css/style.prefix.css css/style.css",
+    "prod-build-css": "npm-run-all compile-sass prefix-css minify-css"
   },
   "repository": {
     "type": "git",
