@@ -1,5 +1,13 @@
 @use "../abstracts" as abs; // Same as @use "./abstracts/index" as abs;
 
-h1 {
-    color: abs.$dark-green;
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(abs.$light-green, 0.8),
+            rgba(abs.$dark-green, 0.8)
+        ),
+        url(../../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
 }
