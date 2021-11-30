@@ -7,12 +7,21 @@
             rgba(abs.$light-green, 0.8),
             rgba(abs.$dark-green, 0.8)
         ),
-        url(../../img/hero.jpg);
+        url(../../img/hero-small.jpg);
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
     @include abs.respond(abs.$breakpoint-name-tab-port) {
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+
+    @include abs.respond(abs.$breakpoint-name-tab-land) {
+        background-image: linear-gradient(
+                to right bottom,
+                rgba(abs.$light-green, 0.8),
+                rgba(abs.$dark-green, 0.8)
+            ),
+            url(../../img/hero.jpg);
     }
 }
