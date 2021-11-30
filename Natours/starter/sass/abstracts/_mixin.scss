@@ -1,0 +1,9 @@
+@use "./variables" as var;
+
+@mixin respond($breakpoint-name) {
+    @if $breakpoint-name == var.$breakpoint-name-tab-port {
+        @media only screen and (min-width: var.$breakpoint-tablet) {
+            @content;
+        }
+    }
+}
