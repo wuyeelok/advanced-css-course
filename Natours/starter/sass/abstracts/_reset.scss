@@ -15,6 +15,10 @@ body {
     color: #777;
 
     @include mix.respond(var.$breakpoint-name-tab-port) {
+        padding: 20px;
+    }
+
+    @include mix.respond(var.$breakpoint-name-tab-land) {
         padding: 30px;
     }
 }

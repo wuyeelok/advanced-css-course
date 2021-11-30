@@ -5,5 +5,9 @@
         @media only screen and (min-width: var.$breakpoint-tablet) {
             @content;
         }
+    } @else if $breakpoint-name == var.$breakpoint-name-tab-land {
+        @media only screen and (min-width: var.$breakpoint-tablet-land) {
+            @content;
+        }
     }
 }
