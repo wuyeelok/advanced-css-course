@@ -9,6 +9,7 @@
         ),
         url(../../img/hero-small.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 
